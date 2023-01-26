@@ -2,8 +2,6 @@
 </script>
 
 <section id="homepage">
-  <a href="#background2">BUBBLE GUM</a>
-
   <img
     class="background1"
     src="src/images/Schermafbeelding 2023-01-25 om 12.54.27.png"
@@ -23,19 +21,22 @@
   <section id="background3">
     <img
       class="background2"
-      src="/Users/emonasantiago/Desktop/Schermafbeelding 2023-01-26 om 12.48.17.png"
+      src="src/images/Schermafbeelding 2023-01-26 om 12.48.17.png"
       alt="background"
       style="width:100%;"
     />
   </section>
-  <!-- <img class="pop-left" src="src/images/klipartz.com.png" alt="pop-left" />
+
+  <img class="pop-left" src="src/images/klipartz.com.png" alt="pop-left" />
   <img
     class="pop-right"
     src="src/images/—Pngtree—cartoon cute explosion dialog bubble_4040022.png"
     alt="pop-right"
-  /> -->
+  />
 
-  <!-- <img class="pop-center" src="src/images/pngegg (3).png" alt="pop-center" /> -->
+  <section id="bubble">
+    <img class="pop-center" src="src/images/pngegg (3).png" alt="pop-center" />
+  </section>
 </section>
 
 <style>
@@ -61,7 +62,7 @@
     /* position: absolute; */
     top: -300px;
     left: -300px;
-    width: 80em;
+    width: 60em;
     position: fixed; /* make sure it stays put so we can see it! */
 
     animation: rotate 10s linear infinite;
